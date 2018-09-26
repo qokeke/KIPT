@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\css\KIPT.css">
     <title>KIPT</title>
     <style></style>
-    <script></script>
+    <script type="text/javascript" src="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\js\KIPT.js"></script>
   </head>
   <body>
     <header>
@@ -21,9 +21,9 @@
         <nav>
           <ul>
             <li><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">Home</a></li>
-            <li><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">About</a></li>
-            <li><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">Services</a></li>
-            <li><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">Contact</a></li>
+            <li onmousedown="scrollToAbout()"><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">About</a></li>
+            <li onmousedown="scrollToServices()"><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">Services</a></li>
+            <li onmousedown="scrollToContact()"><a class="nav-item" href="C:\Users\Kwinko\Documents\Quincy\KIP_T\Website\HTML\KIPT.html">Contact</a></li>
           </ul>
         </nav>
 
@@ -39,7 +39,7 @@
       <div class="sections">
         <h1 class="section-title">About Us</h1>
         <div id="about-quincy" class="about-us" style="overflow: hidden">
-          <img id="im1" src="C:\Users\Kwinko\Documents\Quincy\KIP_T\Images\Yeahyeah.jpeg" alt="Grad Picture" style="display: block">
+          <img id="im1" src="C:\Users\Kwinko\Documents\Quincy\KIP_T\Images\Q1.jpg" alt="Grad Picture" style="display: block">
           <p>
             My name is Quincy Okeke, the founder of KIP Tutoring.<br>
             I am a graduate from the University of Warwick, where I studied Data Science.</p>
@@ -110,7 +110,10 @@
           "Knowledge is power. Information is liberating. <br>
           Education is the premise of progress, in every society, in every family." <br> - Kofi Annan
         </em></p>
+      </div>
     </div>
+    <div>
+      <button onclick="topFunction()" id="scrollTopBtn" title="Go back to the top"><span>Back to top</span></button>
     </div>
   </body>
 </html>

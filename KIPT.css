@@ -10,13 +10,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #FF3300;
+    background: #00CC33;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
-    background-color: #FF6600;
+    background-color: #00CC33;
 }
 
 body {
@@ -166,8 +166,8 @@ img {
 
 #im1, #im2 {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .about-us {
@@ -179,3 +179,36 @@ img {
 .contact-description {
   text-align: center;
 }
+
+#scrollTopBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #00CC33; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#scrollTopBtn:hover {
+    background-color: #00CC33; /* Add a dark-grey background on hover */
+}
+
+/* button {
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+button span {
+  display: none;
+} */
